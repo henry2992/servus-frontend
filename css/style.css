@@ -1,0 +1,156 @@
+/* Content */
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  background-color: #f1f2f7 !important;
+}
+
+p, h1, h2, h3 ,h4 ,h5 ,h6 {
+	margin: 0px !important;
+	padding: 0px !important;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.box-wrapper {
+	background-color: #fff;
+}
+
+.box-content {
+	background-color: #fff;
+	padding: 10px 20px
+}
+
+.box-header {
+	color: white;
+	background-color: #45b6ab;
+	padding: 10px 20px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+
+.row-fix{
+	margin: 0px !important;
+}
+
+.col-fix {
+	padding: 0 !important;
+}
+
+
+/* Header */
+.app-header nav {
+	background-color: #303641;
+	border-color: #303641;
+	border-radius: 0px;
+	color: #fff;
+}
+
+.app-header .nav-link {
+	color: #fff !important;
+}
+
+.app-header .nav-link:hover {
+	background-color: #303641;
+}
+
+.app-header .inside {
+	border-bottom: 1px solid #fff;
+	padding: 10px 15px;
+}
+
+.app-header .nav-link i {
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.app-header .navbar-brand h1 {
+	font-size: 30px;
+	margin: 0px !important;
+	color: #fff;
+	margin-top: -5px !important;
+}
+
+
+a.nav-link.dropdown-toggle {
+	background-color: #303641 !important;
+}
+
+.navbar-nav li .dropdown-menu{
+	background-color: #303641 !important;
+	margin: 0px;
+	padding: 0px
+}
+
+/* Cleaner Information */
+
+.cleaner-wrapper {
+	margin-bottom: 20px;
+}
+
+.cleaner-header {
+	border-color: #0b5995;
+	color: white;
+	background-color: #0b5995;
+	padding: 10px 20px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.cleaner-info {
+	padding: 10px 20px;
+}
+
+.cleaner-info p {
+	letter-spacing: 1px;
+}
+
+/* Booking Information */
+
+.booking-today {
+	border-right: 1px solid #ddd
+}
+
+.booking-header{
+	border-color: #0b5995;
+	color: white;
+	background-color: #0b5995;
+	padding: 10px 20px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.booking-cont-header{
+	/*border-color: #45b6ab;*/
+	color: white;
+	background-color: #019f5b;
+	padding: 10px 20px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.booking {
+	padding: 10px 20px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.booking:nth-child(even) { 
+   background-color: rgb(245, 245, 245);
+}
+
+.no-booking{
+	text-align: center;
+}
+
+.booking-cont-today {
+	border-right: 1px solid #ddd;
+}
+
+
+
+
+
+
